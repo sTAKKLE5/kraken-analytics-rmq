@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "kraken-analytics-rmq"
+version = "1.0.1"
+description = "kraken analytics rabbitmq client"
+license = "MIT"
+repository = "https://github.com/stakkle5/kraken-analytics-rmq"
+authors = ["Thomas <thomas@kraken-analytics.io>"]
+readme = "README.md"
+keywords = ["kraken", "kraken-analytics", "rmq"]
+include = ["kraken_analytics_rmq/**"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pika = "^1.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
