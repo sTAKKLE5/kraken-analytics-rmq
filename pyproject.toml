@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kraken-analytics-rmq"
-version = "1.0.1"
+version = "1.0.2"
 description = "kraken analytics rabbitmq client"
 license = "MIT"
 repository = "https://github.com/stakkle5/kraken-analytics-rmq"
